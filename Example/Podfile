@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'klashapay_Example' do
+  pod 'klashapay', :path => '../'
+
+  target 'klashapay_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
