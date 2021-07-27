@@ -13,8 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		9EEC90A95FB4E80C473C5F5B /* Pods_klashapay_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968B80083D44F90279B59680 /* Pods_klashapay_Example.framework */; };
-		B54155DFB85AD4D1303BF4FE /* Pods_klashapay_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC5DF9E2B827071F4E44EF /* Pods_klashapay_Tests.framework */; };
+		A2B7C1870F48AAE870868CC8 /* Pods_klashapay_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 674DF8881F2E949E95E8CF62 /* Pods_klashapay_Tests.framework */; };
+		E0A493C6F09E099364C15664 /* Pods_klashapay_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19999C2B20E67E0313203B2D /* Pods_klashapay_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,11 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		021A0792953BEA71A77263C5 /* Pods-klashapay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klashapay_Example.release.xcconfig"; path = "Target Support Files/Pods-klashapay_Example/Pods-klashapay_Example.release.xcconfig"; sourceTree = "<group>"; };
-		14932369CC83577781273092 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		30A383462D2845A03CA844E5 /* Pods-klashapay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klashapay_Tests.debug.xcconfig"; path = "Target Support Files/Pods-klashapay_Tests/Pods-klashapay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		36E59E7213C7EF3A6FC84664 /* Pods-klashapay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klashapay_Example.debug.xcconfig"; path = "Target Support Files/Pods-klashapay_Example/Pods-klashapay_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4CCD5F6E75D114468B06E661 /* klashapay.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = klashapay.podspec; path = ../klashapay.podspec; sourceTree = "<group>"; };
+		14932369CC83577781273092 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		19999C2B20E67E0313203B2D /* Pods_klashapay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_klashapay_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCD5F6E75D114468B06E661 /* klashapay.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = klashapay.podspec; path = ../klashapay.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5E61E0F757AA1FE5A720BAB2 /* Pods-klashapay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klashapay_Tests.release.xcconfig"; path = "Target Support Files/Pods-klashapay_Tests/Pods-klashapay_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* klashapay_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = klashapay_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,10 +42,11 @@
 		607FACE51AFB9204008FA782 /* klashapay_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = klashapay_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		968B80083D44F90279B59680 /* Pods_klashapay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_klashapay_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D5551648A98DBD1785035DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		AC3B8D7CFA1039C2A1F2466D /* Pods-klashapay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klashapay_Tests.release.xcconfig"; path = "Target Support Files/Pods-klashapay_Tests/Pods-klashapay_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F1FC5DF9E2B827071F4E44EF /* Pods_klashapay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_klashapay_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		674DF8881F2E949E95E8CF62 /* Pods_klashapay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_klashapay_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73317AEBB79ABC0B2DCB1E86 /* Pods-klashapay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klashapay_Tests.debug.xcconfig"; path = "Target Support Files/Pods-klashapay_Tests/Pods-klashapay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		95846554AB1C7E38D733476B /* Pods-klashapay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klashapay_Example.release.xcconfig"; path = "Target Support Files/Pods-klashapay_Example/Pods-klashapay_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9D5551648A98DBD1785035DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E5DEDBA5496537D042D134B1 /* Pods-klashapay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-klashapay_Example.debug.xcconfig"; path = "Target Support Files/Pods-klashapay_Example/Pods-klashapay_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EEC90A95FB4E80C473C5F5B /* Pods_klashapay_Example.framework in Frameworks */,
+				E0A493C6F09E099364C15664 /* Pods_klashapay_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,13 +62,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B54155DFB85AD4D1303BF4FE /* Pods_klashapay_Tests.framework in Frameworks */,
+				A2B7C1870F48AAE870868CC8 /* Pods_klashapay_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57A0E5F2387A9F235C4F00B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19999C2B20E67E0313203B2D /* Pods_klashapay_Example.framework */,
+				674DF8881F2E949E95E8CF62 /* Pods_klashapay_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -77,7 +86,7 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				8F6DD220E871AF8EC73D28A9 /* Pods */,
-				6E0B51648AD2B7E881D1E75C /* Frameworks */,
+				57A0E5F2387A9F235C4F00B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,24 +148,14 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		6E0B51648AD2B7E881D1E75C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				968B80083D44F90279B59680 /* Pods_klashapay_Example.framework */,
-				F1FC5DF9E2B827071F4E44EF /* Pods_klashapay_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		8F6DD220E871AF8EC73D28A9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				36E59E7213C7EF3A6FC84664 /* Pods-klashapay_Example.debug.xcconfig */,
-				021A0792953BEA71A77263C5 /* Pods-klashapay_Example.release.xcconfig */,
-				30A383462D2845A03CA844E5 /* Pods-klashapay_Tests.debug.xcconfig */,
-				AC3B8D7CFA1039C2A1F2466D /* Pods-klashapay_Tests.release.xcconfig */,
+				E5DEDBA5496537D042D134B1 /* Pods-klashapay_Example.debug.xcconfig */,
+				95846554AB1C7E38D733476B /* Pods-klashapay_Example.release.xcconfig */,
+				73317AEBB79ABC0B2DCB1E86 /* Pods-klashapay_Tests.debug.xcconfig */,
+				5E61E0F757AA1FE5A720BAB2 /* Pods-klashapay_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -167,11 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "klashapay_Example" */;
 			buildPhases = (
-				C68EB1D4027091983BF0EB2B /* [CP] Check Pods Manifest.lock */,
+				FE14B847B89DB297FF8E9DFD /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				BF6166A23544185AACF98AF8 /* [CP] Embed Pods Frameworks */,
+				DCC860F2A80C1BB8F36F4C34 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,7 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "klashapay_Tests" */;
 			buildPhases = (
-				DC9218F9B99001B557783290 /* [CP] Check Pods Manifest.lock */,
+				5ED691A155425F405CD22993 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -262,47 +262,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BF6166A23544185AACF98AF8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-klashapay_Example/Pods-klashapay_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/klashapay/klashapay.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/klashapay.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-klashapay_Example/Pods-klashapay_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C68EB1D4027091983BF0EB2B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-klashapay_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DC9218F9B99001B557783290 /* [CP] Check Pods Manifest.lock */ = {
+		5ED691A155425F405CD22993 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -318,6 +278,70 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-klashapay_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCC860F2A80C1BB8F36F4C34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-klashapay_Example/Pods-klashapay_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/OTPFieldView/OTPFieldView.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
+				"${BUILT_PRODUCTS_DIR}/SwinjectAutoregistration/SwinjectAutoregistration.framework",
+				"${BUILT_PRODUCTS_DIR}/klashapay/klashapay.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OTPFieldView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwinjectAutoregistration.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/klashapay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-klashapay_Example/Pods-klashapay_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE14B847B89DB297FF8E9DFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-klashapay_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -419,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -475,7 +499,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36E59E7213C7EF3A6FC84664 /* Pods-klashapay_Example.debug.xcconfig */;
+			baseConfigurationReference = E5DEDBA5496537D042D134B1 /* Pods-klashapay_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = klashapay/Info.plist;
@@ -490,7 +514,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 021A0792953BEA71A77263C5 /* Pods-klashapay_Example.release.xcconfig */;
+			baseConfigurationReference = 95846554AB1C7E38D733476B /* Pods-klashapay_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = klashapay/Info.plist;
@@ -505,7 +529,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30A383462D2845A03CA844E5 /* Pods-klashapay_Tests.debug.xcconfig */;
+			baseConfigurationReference = 73317AEBB79ABC0B2DCB1E86 /* Pods-klashapay_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -527,7 +551,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC3B8D7CFA1039C2A1F2466D /* Pods-klashapay_Tests.release.xcconfig */;
+			baseConfigurationReference = 5E61E0F757AA1FE5A720BAB2 /* Pods-klashapay_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",

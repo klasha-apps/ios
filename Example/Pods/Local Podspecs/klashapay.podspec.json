@@ -1,0 +1,60 @@
+{
+  "name": "klashapay",
+  "version": "0.1.0",
+  "summary": "A short description of klashapay.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/debugher/klashapay",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "debugher": "ayodaniel@iflux.app"
+  },
+  "source": {
+    "git": "https://github.com/debugher/klashapay.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "klashapay/Classes/**/*",
+  "resources": "klashapay/**/*.{storyboard,xib,xcassets,json,png, jpeg, ttf}",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "lottie-ios": [
+
+    ],
+    "RxSwift": [
+
+    ],
+    "RxCocoa": [
+
+    ],
+    "SwinjectAutoregistration": [
+
+    ],
+    "Swinject": [
+
+    ],
+    "MaterialComponents/TextControls+OutlinedTextAreas": [
+
+    ],
+    "MaterialComponents/TextControls+OutlinedTextFields": [
+
+    ],
+    "MaterialComponents/TextControls+FilledTextFields": [
+
+    ],
+    "IQKeyboardManagerSwift": [
+
+    ],
+    "OTPFieldView": [
+
+    ],
+    "PopupDialog": [
+
+    ]
+  }
+}

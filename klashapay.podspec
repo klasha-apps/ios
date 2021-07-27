@@ -28,15 +28,30 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/debugher/klashapay.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'klashapay/Classes/**/*'
-  
+  s.resources =  'klashapay/**/*.{storyboard,xib,xcassets,json,png, jpeg, ttf}'
   # s.resource_bundles = {
   #   'klashapay' => ['klashapay/Assets/*.png']
   # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+#  s.resource_bundles = {
+#      'klashapay' => [
+#          'Pod/**/*.xib'
+#      ]
+#    }
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'UIKit'
+  # s.dependency 'AFNetworking', '~> 2.3'    s.frameworks = 'UIKit'
+  s.dependency 'lottie-ios'
+  s.dependency 'RxSwift'
+  s.dependency 'RxCocoa'
+  s.dependency 'SwinjectAutoregistration'
+  s.dependency 'Swinject'
+  s.dependency 'MaterialComponents/TextControls+OutlinedTextAreas'
+  s.dependency 'MaterialComponents/TextControls+OutlinedTextFields'
+  s.dependency 'MaterialComponents/TextControls+FilledTextFields'
+  s.dependency 'IQKeyboardManagerSwift'
+  s.dependency 'OTPFieldView'
+  s.dependency 'PopupDialog'
 end

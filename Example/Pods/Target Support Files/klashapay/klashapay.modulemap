@@ -1,0 +1,6 @@
+framework module klashapay {
+  umbrella header "klashapay-umbrella.h"
+
+  export *
+  module * { export * }
+}
