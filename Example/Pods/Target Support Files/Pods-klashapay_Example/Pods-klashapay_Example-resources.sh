@@ -289,8 +289,11 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/../../klashapay/Assets/Assets.xcassets/Visa.imageset/Visa.png"
   install_resource "${PODS_ROOT}/../../klashapay/Assets/Assets.xcassets/Visa.imageset/Visa@2x.png"
   install_resource "${PODS_ROOT}/../../klashapay/Assets/Assets.xcassets/Visa.imageset/Visa@3x.png"
+  install_resource "${PODS_ROOT}/../../klashapay/Classes/UI/Bold.ttf"
+  install_resource "${PODS_ROOT}/../../klashapay/Classes/UI/Bolds.ttf"
   install_resource "${BUILT_PRODUCTS_DIR}/klashapay/klashapay.framework/KlashaSB.storyboardc"
   install_resource "${PODS_ROOT}/../../klashapay/Classes/UI/Loader.json"
+  install_resource "${PODS_ROOT}/../../klashapay/Classes/UI/Regular.ttf"
   install_resource "${BUILT_PRODUCTS_DIR}/klashapay/klashapay.framework/Assets.car"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -486,8 +489,11 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/../../klashapay/Assets/Assets.xcassets/Visa.imageset/Visa.png"
   install_resource "${PODS_ROOT}/../../klashapay/Assets/Assets.xcassets/Visa.imageset/Visa@2x.png"
   install_resource "${PODS_ROOT}/../../klashapay/Assets/Assets.xcassets/Visa.imageset/Visa@3x.png"
+  install_resource "${PODS_ROOT}/../../klashapay/Classes/UI/Bold.ttf"
+  install_resource "${PODS_ROOT}/../../klashapay/Classes/UI/Bolds.ttf"
   install_resource "${BUILT_PRODUCTS_DIR}/klashapay/klashapay.framework/KlashaSB.storyboardc"
   install_resource "${PODS_ROOT}/../../klashapay/Classes/UI/Loader.json"
+  install_resource "${PODS_ROOT}/../../klashapay/Classes/UI/Regular.ttf"
   install_resource "${BUILT_PRODUCTS_DIR}/klashapay/klashapay.framework/Assets.car"
 fi
 

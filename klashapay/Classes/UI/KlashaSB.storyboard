@@ -1376,7 +1376,7 @@
     </scenes>
     <resources>
         <image name="creditcard.fill" catalog="system" width="128" height="88"/>
-        <image name="klasha" width="709" height="194"/>
+        <image name="klasha" width="166.66667175292969" height="45.666667938232422"/>
         <image name="lock" catalog="system" width="128" height="128"/>
         <image name="rave_copy_icon" width="190.66667175292969" height="190.66667175292969"/>
         <image name="success" width="42.666667938232422" height="42.666667938232422"/>

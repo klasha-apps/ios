@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'klashapay/**/*.{h,m,swift}'
-  s.resources =  'klashapay/**/*.{storyboard,xib,xcassets,json,png, jpeg, ttf}'
+  s.resources =  'klashapay/**/*.{ttf,storyboard,xib,xcassets,json,png, jpeg}'
   # s.resource_bundles = {
   #   'klashapay' => ['klashapay/Assets/*.png']
   # }

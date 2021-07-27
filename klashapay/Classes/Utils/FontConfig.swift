@@ -57,8 +57,9 @@ public final class Fonts {
     //Why do extra work if its available.
     if let font = UIFont(name: name, size: size) {return font}
 
-    let bundle = Bundle.getResourcesBundle()! //get the current bundle
+    let bundle = Bundle.getResourcesBundle() ?? Bundle.main //get the current bundle
 
+    print("BUNDLE: \(bundle)")
     let url = bundle.url(forResource: name, withExtension: nil)! //get the bundle url
     let data = NSData(contentsOf: url)! //get the font data
     let provider = CGDataProvider(data: data)! //convert the data into a provider

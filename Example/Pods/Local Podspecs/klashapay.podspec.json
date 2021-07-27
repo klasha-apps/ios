@@ -19,7 +19,7 @@
     "ios": "11.0"
   },
   "source_files": "klashapay/**/*.{h,m,swift}",
-  "resources": "klashapay/**/*.{storyboard,xib,xcassets,json,png, jpeg, ttf}",
+  "resources": "klashapay/**/*.{ttf,storyboard,xib,xcassets,json,png, jpeg}",
   "public_header_files": "Classes/*.h",
   "frameworks": "UIKit",
   "dependencies": {

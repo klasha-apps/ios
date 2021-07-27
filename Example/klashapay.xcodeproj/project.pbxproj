@@ -483,8 +483,11 @@
 				"${PODS_ROOT}/../../klashapay/Assets/Assets.xcassets/Visa.imageset/Visa.png",
 				"${PODS_ROOT}/../../klashapay/Assets/Assets.xcassets/Visa.imageset/Visa@2x.png",
 				"${PODS_ROOT}/../../klashapay/Assets/Assets.xcassets/Visa.imageset/Visa@3x.png",
+				"${PODS_ROOT}/../../klashapay/Classes/UI/Bold.ttf",
+				"${PODS_ROOT}/../../klashapay/Classes/UI/Bolds.ttf",
 				"${BUILT_PRODUCTS_DIR}/klashapay/klashapay.framework/KlashaSB.storyboardc",
 				"${PODS_ROOT}/../../klashapay/Classes/UI/Loader.json",
+				"${PODS_ROOT}/../../klashapay/Classes/UI/Regular.ttf",
 				"${BUILT_PRODUCTS_DIR}/klashapay/klashapay.framework/Assets.car",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -627,8 +630,11 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Visa.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Visa@2x.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Visa@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Bold.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Bolds.ttf",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KlashaSB.storyboardc",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Loader.json",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Regular.ttf",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

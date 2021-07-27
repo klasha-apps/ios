@@ -83,7 +83,8 @@ class MpesaViewController: BaseViewController {
     
     
     lazy var klashaLogo: UIImageView = {
-        let imageView = UIImageView(image: UIImage(named: "klasha"))
+        let imageView = UIImageView(image: UIImage(named: "klasha")?.withRenderingMode(.alwaysTemplate))
+        imageView.tintColor = KlashaConstants.klashaPink
         imageView.contentMode = .scaleAspectFit
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.heightAnchor.constraint(equalToConstant: 20).isActive = true
