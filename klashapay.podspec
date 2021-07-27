@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'klashapay'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of klashapay.'
+  s.summary          = 'Klashapay iOS SDK'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,13 +24,13 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/klasha-apps/ios'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'debugher' => 'stephen@klasha.com' }
+  s.author           = { 'Klasha Developers' => 'stephen@klasha.com' }
   s.source           = { :git => 'https://github.com/klasha-apps/ios.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'klashapay/Classes/**/*'
+  s.source_files = 'klashapay/**/*.{h,m,swift}'
   s.resources =  'klashapay/**/*.{storyboard,xib,xcassets,json,png, jpeg, ttf}'
   # s.resource_bundles = {
   #   'klashapay' => ['klashapay/Assets/*.png']
@@ -40,7 +40,7 @@ TODO: Add long description of the pod here.
 #          'Pod/**/*.xib'
 #      ]
 #    }
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Classes/*.h'
   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'    s.frameworks = 'UIKit'
   s.dependency 'lottie-ios'
