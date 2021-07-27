@@ -1,26 +1,26 @@
 {
   "name": "klashapay",
   "version": "0.1.0",
-  "summary": "A short description of klashapay.",
+  "summary": "Klashapay iOS SDK",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/debugher/klashapay",
+  "homepage": "https://github.com/klasha-apps/ios",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "debugher": "ayodaniel@iflux.app"
+    "Klasha Developers": "stephen@klasha.com"
   },
   "source": {
-    "git": "https://github.com/debugher/klashapay.git",
+    "git": "https://github.com/klasha-apps/ios.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "11.0"
   },
-  "source_files": "klashapay/Classes/**/*",
+  "source_files": "klashapay/**/*.{h,m,swift}",
   "resources": "klashapay/**/*.{storyboard,xib,xcassets,json,png, jpeg, ttf}",
-  "public_header_files": "Pod/Classes/**/*.h",
+  "public_header_files": "Classes/*.h",
   "frameworks": "UIKit",
   "dependencies": {
     "lottie-ios": [
